@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.MvcResult;
 
 @AutoConfigureMockMvc
 @SpringBootTest
-public class HomeControllerTest {
+class HomeControllerTest {
 	@InjectMocks
 	HomeController controller;
 	
@@ -22,7 +22,7 @@ public class HomeControllerTest {
 	MockMvc mockMvc;
 
 	@Test
-	public void helloTest() throws Exception {
+	void helloTest() throws Exception {
 		MvcResult result = mockMvc.perform(get("/hello").accept(MediaType.TEXT_PLAIN))
 				.andReturn();
 		assertEquals("Hello there", result.getResponse().getContentAsString());

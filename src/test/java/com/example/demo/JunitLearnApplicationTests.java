@@ -11,7 +11,7 @@ class JunitLearnApplicationTests {
 	}
 	
 	@Test
-	public void mainTest() {
+	void mainTest() {
 		JunitLearnApplication.main(new String[] {});
 	}
 
