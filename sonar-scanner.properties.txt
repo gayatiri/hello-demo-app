@@ -1,2 +1,3 @@
 sonar.projectKey=hello-app-sonar
-sonar.sources=./src
+sonar.sources=.
+sonar.language=java
