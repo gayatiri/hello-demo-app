@@ -9,5 +9,10 @@ class JunitLearnApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
+	@Test
+	public void mainTest() {
+		JunitLearnApplication.main(new String[] {});
+	}
 
 }
